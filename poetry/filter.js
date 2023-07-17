@@ -89,7 +89,7 @@ searchInput.addEventListener("keyup",(e) => {
 });
 function getAjax(value){
     const xhr = new XMLHttpRequest();
-    const url = 'http://json-global.hksty.net/json/transfer/transfer_all_1.json'
+    const url = 'https://json-global.ssports.com/json/transfer/transfer_all_1.json'
 
     xhr.onreadystatechange = function(){
         if (this.readyState == 4 && this.status == 200){
